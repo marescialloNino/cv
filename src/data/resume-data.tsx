@@ -61,12 +61,13 @@ export const RESUME_DATA: ResumeData = {
   initials: "NS",
   location: "Venice, Italy",
   locationLink: "https://www.google.com/maps/place/Venice",
-  about:
-    "Electrical/Mathematical Engineer who likes to code and build, ",
-  summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "CvPhoto",
-  personalWebsiteUrl: "https://jarocki.me",
+  about:
+    "Electrical Engineering, Applied Mathematics and Software ",
+  summary:
+    "",
+  /* avatarUrl: "CvPhoto", */
+  /* personalWebsiteUrl: "https://jarocki.me", */
   contact: {
     email: "nicola.schiavoo@gmail.com",
     tel: "+393453999183",
@@ -94,7 +95,7 @@ export const RESUME_DATA: ResumeData = {
       school: "University of Padua",
       degree: "Masters Degree Mathematical engineering",
       start: "2023",
-      end: "",
+      end: "Now",
     }
   ],
   work: [
@@ -105,7 +106,7 @@ export const RESUME_DATA: ResumeData = {
       title: "Java Software Developer",
       logo: KireyLogo,
       start: "April 2023",
-      end: "",
+      end: "Now",
       description:
         "Worked on several Java/Spring Boot web applications, mainly on an internal IOT platform for the industry sector (built from scratch), where i worked with several technologies, including Python, MongoDB, Docker, MQTT messaging protocol, LoRa Wan protocol, edgeX and Grafana.",
     },

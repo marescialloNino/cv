@@ -12,6 +12,7 @@ import { ProjectCard } from "@/components/project-card";
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
+  
 };
 
 export default function Page() {
@@ -87,7 +88,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          <Avatar className="size-32">
             <AvatarImage alt={RESUME_DATA.name} src={"./images/cv_photo.png"} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
