@@ -63,9 +63,9 @@ export const RESUME_DATA: ResumeData = {
   locationLink: "https://www.google.com/maps/place/Venice",
   avatarUrl: "CvPhoto",
   about:
-    "Electrical Engineering, Applied Mathematics and Software ",
+    "Electrical Engineering, Applied Mathematics and Software Development",
   summary:
-    "",
+    "As a software developer, my career in tech is just starting out, and I'm loving it, I'm also finishing a master degree in mathematical engineering, and that's the things i like doing the most. I enjoy working in an enviroment where I can test myself on new problems and challenges, pushing me to learn and become every day a little better.",
   /* avatarUrl: "CvPhoto", */
   /* personalWebsiteUrl: "https://jarocki.me", */
   contact: {
@@ -87,13 +87,13 @@ export const RESUME_DATA: ResumeData = {
   education: [
     {
       school: "University of Padua",
-      degree: "Bachelor's Degree Electrical engineering",
+      degree: "Electrical engineering Bachelor's Degree ",
       start: "2019",
       end: "2023",
     },
     {
       school: "University of Padua",
-      degree: "Masters Degree Mathematical engineering",
+      degree: "Mathematical engineering Masters Degree",
       start: "2023",
       end: "Now",
     }
@@ -103,12 +103,12 @@ export const RESUME_DATA: ResumeData = {
       company: "Kirey Group SRL",
       link: "https://www.kireygroup.com",
       badges: ["Remote"],
-      title: "Java Software Developer",
+      title: "Junior Software Developer",
       logo: KireyLogo,
       start: "April 2023",
       end: "Now",
       description:
-        "Worked on several Java/Spring Boot web applications, mainly on an internal IOT platform for the industry sector (built from scratch), where i worked with several technologies, including Python, MongoDB, Docker, MQTT messaging protocol, LoRa Wan protocol, edgeX and Grafana.",
+        "I worked on several Java/Spring Boot web applications, mainly on an internal IOT platform for the industry sector (built from scratch), where i worked with several technologies, including Python, MongoDB, Docker, MQTT messaging protocol, LoRa Wan protocol, edgeX and Grafana.",
     },
   ],
   skills: [
