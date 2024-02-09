@@ -1,5 +1,5 @@
 import {
-  ParabolLogo,
+  KireyLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -7,7 +7,7 @@ interface Project {
   title: string;
   techStack: string[];
   description: string;
-  logo: any; // Adjust based on your logo type
+  logo: any; 
   link?: {
     label: string;
     href: string;
@@ -65,7 +65,7 @@ export const RESUME_DATA: ResumeData = {
     "Electrical/Mathematical Engineer who likes to code and build, ",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "CvPhoto",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "nicola.schiavoo@gmail.com",
@@ -103,7 +103,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://www.kireygroup.com",
       badges: ["Remote"],
       title: "Java Software Developer",
-      logo: ParabolLogo,
+      logo: KireyLogo,
       start: "April 2023",
       end: "",
       description:
